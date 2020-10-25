@@ -30,15 +30,15 @@ JAVA实验三 学生选课模拟系统
 package course;
 
 public class people {
-	 private int id;
-	 private char sex;
-	 private String peopleName;
-	 private Course[] courses;
-	 public people() {
-		 super();
-		 courses= new Course[1];
+    private int id;
+    private char sex;
+    private String peopleName;
+    private Course[] courses;
+    public people() {
+    super();
+	 courses= new Course[1];
 	 }
-	 public people(int id,String peopleName,char sex){
+    public people(int id,String peopleName,char sex){
 		  this.id=id;
 		  this.peopleName=peopleName;
 		  this.sex=sex;
@@ -222,7 +222,7 @@ public class Student {
    package course;
 
 public class Course {
-	 private String courseName;
+    	 private String courseName;
 	 private int courseId;
 	 private Teacher teacher;
 	 private String coursePlace;
